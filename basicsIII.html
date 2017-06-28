@@ -1,0 +1,197 @@
+<!-- Intro -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Time</title>
+  </head>
+  <body>
+    <h1 style= "font-family: Arial">Tables Are Mega Sweet</h1>
+    <img src= "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/large/public/chlakboard_240x90.jpg?itok=62-nF25o">
+    <a href=" http://www.nba.com/cavaliers/releases/james-player-of-the-month-150304">
+    <img src="http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/07/07/638211/1467933734696-finals00000000.jpg-638211.576x324.jpg">
+    </a>
+  </body>
+</html>
+
+<!-- Use <table> to create table and <tr> for table rows -->
+<!-- Use <td> tag to input data -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td>Two</td>
+            </tr>
+            
+            <tr>
+                <td> Five </td>
+            </tr>
+            
+            <tr>
+                <td>Three</td>  
+            </tr>
+        </table>
+        
+    </body>
+
+</html>
+
+<!-- To make multiple columns simply add <td> nested within <tr> tag -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+                
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+        </table>
+        
+    </body>
+
+</html>
+
+<!-- To add table headers use the <thead> tag and nest <tr><th></th></tr> for each column -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+
+<!-- Naming Your tables -->
+<!-- Use colspan attribute to add a title across top of table -->
+<!-- <th colspan="3">3 columns across!</th> -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+<!-- Style that head -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th colspan="2"; th style="color:red">
+                    Famous Monsters by Birth Year
+                    </th>
+                </tr>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;"><em>Famous Monster</em></th>
+                    <th style="padding:5px;border-left:1px solid black;"><em>Birth Year</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
