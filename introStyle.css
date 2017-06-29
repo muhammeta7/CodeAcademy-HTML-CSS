@@ -1,0 +1,47 @@
+/* What CSS is */
+p {
+    color: red;
+}
+
+span {
+    color: blue;
+}
+
+/* Why seperate form from fiction */
+p {
+    font-size: 100px;
+}
+
+span {
+    font-family: cursive;
+}
+
+/* Link it up */
+p {
+    font-size: 44px;
+}
+
+/* Syntax for the wintax */
+p {
+    color: green;
+}
+
+/* One selector, many properties */
+p{
+    color:green;
+    font-family: Garamond;
+    font-size:24px;
+}
+
+/* Many selectors, many properties */
+h3{
+    color:red;
+}
+
+p{
+    font-family:Courier
+}
+
+span{
+    background-color:yellow;
+}
