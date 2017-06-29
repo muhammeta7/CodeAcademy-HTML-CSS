@@ -1,28 +1,28 @@
 /* What CSS is */
-p {
+p{
     color: red;
 }
 
-span {
+span{
     color: blue;
 }
 
 /* Why seperate form from fiction */
-p {
+p{
     font-size: 100px;
 }
 
-span {
+span{
     font-family: cursive;
 }
 
 /* Link it up */
-p {
+p{
     font-size: 44px;
 }
 
 /* Syntax for the wintax */
-p {
+p{
     color: green;
 }
 
@@ -47,12 +47,12 @@ span{
 }
 
 /* The importance of semicolons */
-h3 {
+h3{
    font-family: Verdana;
    color: blue;
 }
 
-p {
+p{
    font-family: Garamond;
    font-size: 16px;
 }
@@ -78,3 +78,63 @@ p{
 }
 
 /*I am so cool*/
+
+/* Hexawhatnow */
+h1{
+  color: #8B1C62;
+}
+
+h2{
+  color: #FF7256;
+}
+
+h3{
+  color: #FFC125;
+}
+
+h4{
+  color: #54FF9F;
+}
+
+h5{
+  color: #530EE8;
+}
+
+h6{
+  color: #8B668B;
+}
+
+/* Roses are Red */
+h3{
+    color:#cc6666;
+}
+
+h2{
+    color:#8a2be2;
+}
+
+/* A font of knowledge */
+h1{
+    font-family:serif;
+}
+
+h2{
+    font-family:sans-serif;
+}
+
+h3{
+    font-family: cursive ;
+}
+
+/* Backup Values */
+h1{
+    font-family:Times, serif;
+}
+
+h2{
+    font-family:Verdana, sans-serif;
+}
+
+h3{
+    font-family: Vivaldi, cursive ;
+}
