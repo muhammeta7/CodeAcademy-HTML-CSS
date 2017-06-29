@@ -45,3 +45,36 @@ p{
 span{
     background-color:yellow;
 }
+
+/* The importance of semicolons */
+h3 {
+   font-family: Verdana;
+   color: blue;
+}
+
+p {
+   font-family: Garamond;
+   font-size: 16px;
+}
+
+/* Comment it out */
+/*
+p {
+  color:red;
+}
+*/
+
+/* Check yourself before you wreck yourself */
+h1{
+    font-family:Verdana;
+}
+
+h3{
+    font-family:Courier;
+}
+
+p{
+    color:purple;
+}
+
+/*I am so cool*/
