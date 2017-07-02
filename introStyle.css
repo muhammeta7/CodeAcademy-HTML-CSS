@@ -138,3 +138,61 @@ h2{
 h3{
     font-family: Vivaldi, cursive ;
 }
+
+/*  background, color, height, and width  */
+div{
+    background-color: #cc0000;
+    height: 100px;
+    width: 100px;
+}
+
+/* Bordering on insanity */
+td{
+    height: 50px;
+    border: 1px dashed blue;  
+}
+
+table{
+    border: 1px solid black;
+}
+
+/* Links and text decoration */
+a{
+    color:#cc0000;
+    text-decoration:none;
+}
+
+/* Many selectors, many properties, Fall Back */
+h1{
+    font-family: Verdana, sans-serif;
+    color: #576D94;
+}
+
+p{
+    font-family:Garamond, serif;
+    font-size: 18px;
+    color: #4A4943;
+}
+
+/* Size and borders */
+h1{
+    font-family: Verdana, sans-serif;
+    color: #576D94;
+}
+
+p{
+    font-family:Garamond, serif;
+    font-size: 18px;
+    color: #4A4943;
+}
+
+img{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682b4;
+}
+
+a{
+    text-decoration:none;
+    color:#cc0000;
+}
