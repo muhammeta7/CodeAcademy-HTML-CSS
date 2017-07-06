@@ -1,0 +1,23 @@
+/* Multiple Selectors */
+div div div h3 {
+    color:red;
+}
+
+/* One selector to rule them all */
+* {
+    border: 1px dashed #3a5fcd ;
+}
+
+/* Rock your Selectors */
+p {
+    color:#00e5ee;
+}
+
+div p {
+    color:#cc0000;
+}
+
+* {
+    border: 2px solid #3a5fcd ;
+}
+    
