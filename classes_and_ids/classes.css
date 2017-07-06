@@ -20,4 +20,161 @@ div p {
 * {
     border: 2px solid #3a5fcd ;
 }
+
+/* Swinging from branch to branch */
+li a {
+    text-decoration:none;
+    font-family:cursive;
+}
+
+/* Can you swing it */
+p {
+    font-family:Garamond;
+}
+
+body >p {
+    font-weight:bold;
+}
+
+/* This only grabs <p>s that are nested directly inside of <div> */
+div >p {
+    color:#7ac5cd;
+}
+    
+div ul li>p {
+    color:#000000;
+    text-decoration:underline;
+}
+
+/* See it to believe it */
+p {
+  font-family: Garamond, serif;
+}
+
+#intro {
+  font-weight: bold;
+  color: #000000;
+}
+
+div p {
+  color: #7AC5CD;
+}
+
+li p {
+  font-family: Verdana, sans-serif;
+  color: #000000;
+}
+
+.list_item {
+  font-family: Vivaldi, cursive;
+}
+
+#summary {
+
+/* Beyond HTML elements */
+.red {
+  color: red;
+}
+
+#rogue {
+  color: #FF00FF;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/* Keeping it classy */
+.fancy {
+    color:#0000cd;
+    font-family:cursive;
+}
+
+/* ID please */
+#serious {
+    color:#cc0000;
+    font-family:Courier;
+}
+
+/* Pulling it all together */
+#intro {
+    color:#b83c3a;
+}
+
+.standout {
+    color:#f7ac5f;
+    font-family:Verdana;
+}
+
+/* Even finer control */
+/*
+
+Pseudo-class selectors let us style these kinds of changes in our HTML document. 
+For example, we saw we could change a link's text-decoration property to make it 
+something other than blue and underlined. Using pseudo selectors, you can control
+the appearance of unvisited and visited links—even links the user is hovering over 
+but hasn't clicked!
+
+selector:pseudo-class_selector {
+    property: value;
+}
+
+*/
+a:hover {
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*
+
+Pseudo-class selectors let us style these kinds of changes in our HTML document. 
+For example, we saw we could change a link's text-decoration property to make it 
+something other than blue and underlined. Using pseudo selectors, you can control
+the appearance of unvisited and visited links—even links the user is hovering over 
+but hasn't clicked!
+
+selector:pseudo-class_selector {
+    property: value;
+}
+
+*/
+
+/* Links */
+a:link {
+    text-decoration:none;
+    color:#008b45;
+}
+
+a:hover {
+    color:#00ff00;
+}
+
+a:visited {
+    color:#ee9a00;
+}
+
+/* First child */
+p:first-child {
+    font-family:Cursive;
+}
+
+/* Nth child */
+p:first-child {
+    font-family:Cursive;
+}
+
+p:nth-child(2) {
+    font-family:Tahoma;
+}
+
+p:nth-child(3) {
+    color:#cc0000
+}
+
+p:nth-child(4) {
+    background-color:#00ff00;
+}
+
+p:nth-child(5) {
+    font-size:22px;
+}
     

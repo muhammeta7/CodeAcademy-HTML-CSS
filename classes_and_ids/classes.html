@@ -58,3 +58,208 @@
     </div>
   </body>
 </html>
+
+<!-- Parents, children, and siblings -->
+<!DOCTYPE html>
+<html> <!--The trunk of the tree!-->
+  <head> <!--Child of html, parent of title,
+       sibling of body-->
+    <title></title> <!--Immediate child of head,
+            child of head AND html-->
+  </head>
+  <body> <!--Child of html, parent of p,
+       sibling of head-->
+    <p></p> <!--Immediate child of body,
+        child of body AND html-->
+  </body>
+</html>
+
+<!-- Swinging from branch to branch -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Linkapalooza</title>
+  </head>
+  <body>
+    <a href="http://www.codecademy.com/">Codecademy!</a>
+    <ul>
+      <li>
+        <a href="http://www.codecademy.com/learn">Learn</a>
+      </li>
+      <li>
+        <a href="http://www.codecademy.com/create/creator">Teach</a>
+      </li>
+      <li>
+        <a href="http://www.codecademy.com/edit_account/basic_info">Settings</a>
+      </li>
+    </ul>
+  </body>
+</html> 
+
+<!-- Can you swing it -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Ultimate Text Challenge</title>
+  </head>
+  <body>
+    <p>Introduction: Cascading with CSS</p>
+    <div>
+      <p>Synopsis: When you set a property of a selector like 'p' to a certain value, that value applies to <em>all</em> p tags.
+      If, however, you change that same property to a different value for a more specific instance of p,
+      that change will <em>override</em> the 'general rule'.
+      </p>
+      <ul>
+        <li><p>If you say p { font-family: Garamond}, all 'p's will have the font Garamond.</p></li>
+        <li><p>BUT if you say li p {font-family: Verdana}, 'p's outside of 'li's will be
+             in Garamond, and 'p's INSIDE 'li's will be in Verdana.
+        </p></li>
+        <li><p>The more specific your selectors are, the higher importance CSS gives to the styling you apply!</p></li>
+      </ul>
+    </div>
+    <p>Summary: Greater specificity makes CSS prioritize that particular styling.</p>
+  </body>
+</html>
+
+<!-- See it to believe it -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Ultimate Text Challenge</title>
+  </head>
+  <body>
+    <p id="intro">Cascading with CSS</p>
+    <div>
+      <p>When you set a property of a selector like 'p' to a certain value, that value applies to <em>all</em> p tags.
+      If, however, you change that same property to a different value for a more specific instance of p,
+      that change will <em>override</em> the 'general rule'.
+      </p>
+      <ul>
+        <li><p>If you say p { font-family: Garamond}, all 'p's will have the font Garamond.</p></li>
+        <li><p class="list_item">BUT if you say li p {font-family: Verdana}, 'p's outside of 'li's will be
+             in Garamond, and 'p's INSIDE 'li's will be in Verdana.
+        </p></li>
+        <li><p class="list_item">The more specific your selectors are, the higher importance CSS gives to the styling you apply!</p></li>
+      </ul>
+    </div>
+    <p id="summary">Greater specificity makes CSS prioritize that particular styling.</p>
+  </body>
+</html>
+
+<!-- Beyond HTML elements -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Result</title>
+  </head>
+  <body>
+    <h3 class="red">I'm an h3 header in the red class!</h3>
+    <h3>I'm just a regular old h3 header.</h3>
+    <p class="red">I'm a paragraph in the red class!</p>
+    <p>I'm just a regular old paragraph.</p>
+    <p id="rogue">I'm a rogue paragraph! I do what I want!</p>
+  </body>
+</html>
+
+<!-- Keeping it classy -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Result</title>
+  </head>
+  <body>
+    <p class="fancy">Yo this be fancy son.</p>
+  </body>
+</html>
+
+<!-- ID, please -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Result</title>
+  </head>
+  <body>
+    <p id="serious">Why so Serious</p>
+  </body>
+</html>
+
+<!-- Pulling it all together -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Result</title>
+  </head>
+  <body>
+    <h2 id="intro">Introduction</h2>
+    <h3 class="standout">Classes and IDs in CSS</h3>
+    <p class="standout">Classes and IDs are super easy in CSS. You're using them right now!</p>
+    <h3>Regular HTML Selectors</h3>
+    <p>If you don't bother with a class or ID, an HTML element just gets
+       the regular CSS styling for that element—or the default styling if you
+       don't specify any particular styling on the stylesheet.
+    </p>
+  </body>
+</html>
+
+<!-- Even finer control -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Result</title>
+  </head>
+  <body>
+  <ul>
+    <li><a href="http://www.codecademy.com/">Codecademy Home</a></li>
+    <li><a href="http://www.codecademy.com/learn">Learn</a></li>
+    <li><a href="http://www.codecademy.com/create/creator">Teach</a></li>
+    <li><a href="http://www.codecademy.com/edit_account/basic_info">Settings</a></li>
+  </ul>
+  </body>
+</html>
+
+<!-- Links -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <a href="https://www.sublimetext.com/3">Sublime Test</a>
+      <a href="http://www.nfl.com/">Nfl Website</a>
+      <a href="https://www.google.com/?gws_rd=ssl">Google<a>
+    </div>
+  </body>
+</html>
+
+<!-- First child -->
+<!-- Nth child -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <p>I'm the first child!</p>
+      <p>We're not.</p>
+      <p>We're not.</p>
+      <p>We're not.</p>
+      <p>We're not.</p>
+      <p>We're not.</p>
+      <p>We're not.</p>     
+    </div>
+  </body>
+</html>
+
+
